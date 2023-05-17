@@ -1,0 +1,731 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Boost | Cart</title>
+        <!-- Font Awesome -->
+        <link rel="stylesheet" href="assets/css/all.min.css">
+        <!-- Remix Icon -->
+        <link rel="stylesheet" href="assets/remixicon/remixicon.css">
+        <!-- Slick Slider -->
+        <link rel="stylesheet" href="assets/css/slick.css">
+        <!-- Bootstrap v5.3 -->
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <!-- Animate CSS -->
+        <link rel="stylesheet" href="assets/css/animate.css">
+        <!-- jQuery UI CSS -->
+        <link rel="stylesheet" href="assets/css/jquery-ui.css">
+        <!-- CSS  -->
+        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="assets/css/responsive.css">
+        <!-- Favicon -->
+        <link rel="shortcut icon" type="image/png" href="assets/images/favicon.png">
+    </head>
+    <body>
+        <div class="main">
+            <!-- Header Section Start -->
+            <header id="header" class="header">
+                <!-- Header Top Area -->
+                <div class="header-top-area">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <p>🥳 Free shipping on orders over $50 🥳</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Header Logo Area -->
+                <div class="header-logo-area">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="logo-wrapper d-flex justify-content-between align-items-center">
+                                    <div class="logo-left-wrapper">
+                                        <div class="logo-area-left d-flex justify-content-start align-items-center">
+                                            <div class="hamburger-menu" data-bs-toggle="offcanvas" data-bs-target="#mobileMenu" aria-controls="mobileMenu">
+                                                <span></span>
+                                                <span></span>
+                                                <span></span>
+                                            </div>
+                                            <!-- Search Modal Button -->
+                                            <div data-bs-toggle="modal" data-bs-target="#searchBar" class="search-modal">
+                                                <div class="search-form-wrapper">
+                                                    <div class="search-form">
+                                                        <label for="search"><i class="ri-search-line"></i></label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- Search Modal Content -->
+                                            <div class="modal fade" id="searchBar" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                <div class="modal-dialog">
+                                                    <div class="modal-content">
+                                                        <div class="search-form-wrapper">
+                                                            <form class="search-form d-flex justify-content-start align-items-center">
+                                                                <input type="search" id="search" placeholder="Search our store">
+                                                            </form>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="search-form-wrapper small-none">
+                                                <form class="search-form d-flex justify-content-start align-items-center">
+                                                    <label for="search"><i class="ri-search-line"></i></label>
+                                                    <input type="search" id="search" placeholder="Search our store">
+                                                </form>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="logo-middle-wrapper">
+                                        <div class="site-logo">
+                                            <a href="index.html">
+                                            <img src="assets/images/checkout-logo.webp" alt="logo">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="logo-right-wrapper">
+                                        <div class="logo-area-right d-flex justify-content-end align-items-center">
+                                            <div class="currency-form-wrapper">
+                                                <form class="currency-form">
+                                                    <select class="form-select" aria-label="Default select example">
+                                                        <option selected>united states (USD $)</option>
+                                                        <option value="1">australia (AUD $)</option>
+                                                        <option value="2">Canada (CAD $)</option>
+                                                        <option value="3">united kingdom (GBP £)</option>
+                                                        <option value="3">united states (USD $)</option>
+                                                    </select>
+                                                </form>
+                                            </div>
+                                            <div class="action-buttons d-flex justify-content-end align-items-center">
+                                                <ul class="login-btn">
+                                                    <li>
+                                                        <a href="javascript:void(0)"><i class="ri-user-3-line"></i></a>
+                                                        <ul class="login-menu">
+                                                            <li><a href="login.html">Log in</a></li>
+                                                            <li><a href="register.html">Create an account</a></li>
+                                                        </ul>
+                                                    </li>
+                                                </ul>
+                                                <div class="cart-box-wrapper">
+                                                    <span class="counter">2</span>
+                                                    <i class="ri-shopping-bag-2-line"></i>
+                                                    <div class="cart-box">
+                                                        <p>Cart</p>
+                                                        <div class="cart-products">
+                                                            <div class="single-cart-product d-flex justify-content-start align-items-center">
+                                                                <div class="cart-thumb">
+                                                                    <img src="assets/images/cart-product-1.webp" alt="product-thumbnail">
+                                                                </div>
+                                                                <div class="cart-product-content">
+                                                                    <a class="cart-product-title" href="shop-inner.html">ricemere</a>
+                                                                    <p class="cart-product-color">Color: Pink</p>
+                                                                    <p class="cart-product-price">$23.75 <span class="text-strike">$25.00</span></p>
+                                                                    <p class="cart-product-offer">Flash Sale - 5% Off $1.25</p>
+                                                                </div>
+                                                            </div>
+                                                            <div class="single-cart-product  d-flex justify-content-start align-items-center">
+                                                                <div class="cart-thumb">
+                                                                    <img src="assets/images/cart-product-1.webp" alt="product-thumbnail">
+                                                                </div>
+                                                                <div class="cart-product-content">
+                                                                    <a class="cart-product-title" href="shop-inner.html">ricesweet</a>
+                                                                    <p class="cart-product-color">Color: Pink</p>
+                                                                    <p class="cart-product-price">$30.88 <span class="text-strike">$32.50</span></p>
+                                                                    <p class="cart-product-offer">Flash Sale - 5% Off $1.62</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="cart-subtotal-wrapper">
+                                                            <table class="table cart-table">
+                                                                <tbody>
+                                                                    <tr class="item">
+                                                                        <td>Items</td>
+                                                                        <td>2</td>
+                                                                    </tr>
+                                                                    <tr class="subtotal">
+                                                                        <td>Subtotal</td>
+                                                                        <td>$54.63</td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+                                                            <a href="checkout.html" class="btn primary-btn d-block checkout-btn">checkout</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Header Menu Area -->
+                <div class="header-menu-area">
+                    <div class="megamenu-position">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <nav class="main-menu">
+                                        <ul class="main-nav d-flex justify-content-center align-items-center">
+                                            <li><a href="index.html">home</a></li>
+                                            <li class="has-children">
+                                                <a href="javascript:void(0)">shop</a>
+                                                <div class="megamenu-wrapper">
+                                                    <div class="container">
+                                                        <div class="row">
+                                                            <div class="col-lg-3">
+                                                                <div class="megamenu-col mega-col-1">
+                                                                    <a href="javascript:void(0)" class="megamenu-title">shop</a>
+                                                                    <ul class="megamenu">
+                                                                        <li><a href="products.html">View all</a></li>
+                                                                        <li><a href="products-2.html">Toys</a></li>
+                                                                        <li><a href="products.html">Home</a></li>
+                                                                        <li><a href="products.html">Stationery</a></li>
+                                                                        <li><a href="products.html">Accessories</a></li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-lg-3">
+                                                                <div class="megamenu-col mega-col-2">
+                                                                    <a href="javascript:void(0)" class="megamenu-title">By personality</a>
+                                                                    <ul class="megamenu">
+                                                                        <li><a href="products-2.html">Shy</a></li>
+                                                                        <li><a href="products-2.html">Happy</a></li>
+                                                                        <li><a href="products-2.html">Funny</a></li>
+                                                                        <li><a href="products-2.html">Naughty</a></li>
+                                                                        <li><a href="products-2.html">Adventurous</a></li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-lg-3">
+                                                                <div class="megamenu-col mega-col-3">
+                                                                    <a href="javascript:void(0)" class="megamenu-title">Filter by</a>
+                                                                    <ul class="megamenu">
+                                                                        <li><a href="products-3.html">New</a></li>
+                                                                        <li><a href="products-3.html">Gifts for kids</a></li>
+                                                                        <li><a href="products-3.html">Gifts for babies</a></li>
+                                                                        <li><a href="products-3.html">Gifts for creative</a></li>
+                                                                        <li><a href="products-3.html">Last chance to buy</a></li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-lg-3">
+                                                                <div class="megamenu-col mega-col-4">
+                                                                    <img src="assets/images/megamenu-banner.webp" alt="mega-banner">
+                                                                    <p>Gifts for kids</p>
+                                                                    <a href="products.html">The perfect little presents</a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li class="has-children dropmenu">
+                                                <a href="javascript:void(0)">about us</a>
+                                                <ul class="dropdown">
+                                                    <li><a href="story-page.html">our story</a></li>
+                                                    <li><a href="about.html">about us</a></li>
+                                                    <li><a href="contact.html">contact us</a></li>
+                                                </ul>
+                                            </li>
+                                            <li><a href="collections.html">all collections</a></li>
+                                            <li><a href="blog.html">blog</a></li>
+                                        </ul>
+                                    </nav>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Canvas Menu -->
+                <div class="responsive-menu">
+                    <div class="offcanvas offcanvas-top" tabindex="-1" id="mobileMenu" aria-labelledby="offcanvasTopLabel">
+                        <div class="offcanvas-header">
+                            <div class="responsive-currency-form-wrapper">
+                                <ul class="responsive-currency-form">
+                                    <li class="has-children">
+                                        united states (USD $)
+                                        <ul class="responsive-currency-sub">
+                                            <li>united states (USD $)</li>
+                                            <li>australia (AUD $)</li>
+                                            <li>Canada (CAD $)</li>
+                                            <li>united kingdom (GBP £)</li>
+                                            <li>united states (USD $)</li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                            <!-- Search Bar -->
+                            <div class="search-form-wrapper">
+                                <form class="search-form d-flex justify-content-start align-items-center">
+                                    <label for="search"><i class="ri-search-line"></i></label>
+                                    <input type="search" id="search" placeholder="Search our store">
+                                </form>
+                            </div>
+                            <!-- Responsive Menu -->
+                            <div class="responsive-nav">
+                                <ul class="main-responsive-menu">
+                                    <li><a href="index.html">home</a></li>
+                                    <li class="has-children">
+                                        <a href="products.html">shop</a>
+                                        <span><i class="ri-arrow-down-s-line"></i></span>
+                                        <ul class="responsive-submenu">
+                                            <li class="has-children">
+                                                <a href="products-2.html">shop</a>
+                                                <span><i class="ri-arrow-down-s-line"></i></span>
+                                                <ul class="responsive-submenu">
+                                                    <li><a href="products.html">view all</a></li>
+                                                    <li><a href="products-2.html">toys</a></li>
+                                                    <li><a href="products.html">home</a></li>
+                                                    <li><a href="products.html">stationery</a></li>
+                                                    <li><a href="products.html">accessories</a></li>
+                                                </ul>
+                                            </li>
+                                            <li><a href="products-3.html">by personality</a></li>
+                                            <li><a href="products.html">by filter</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="collections.html">all collections</a></li>
+                                    <li class="has-children">
+                                        <a href="about.html">about us</a>
+                                        <span><i class="ri-arrow-down-s-line"></i></span>
+                                        <ul class="responsive-submenu">
+                                            <li><a href="story-page.html">our story</a></li>
+                                            <li><a href="about.html">about us</a></li>
+                                            <li><a href="contact.html">contact us</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="blog.html">blog</a></li>
+                                </ul>
+                            </div>
+                            <!-- Social Buttons Menu -->
+                            <ul class="footer-social d-flex justify-content-start align-items-center">
+                                <li><a href="https://facebook.com" target="_blank"><i class="fa-brands fa-square-facebook"></i></a></li>
+                                <li><a href="https://twitter.com" target="_blank"><i class="fa-brands fa-twitter"></i></a></li>
+                                <li><a href="https://instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+                                <li><a href="https://pinterest.com" target="_blank"><i class="fa-brands fa-pinterest"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <!-- Header Section End -->
+            <!-- Breadcrumb Section Start -->
+            <section class="bredcrumb" id="bredcrumb">
+                <div class="container">
+                    <div class="breadcrumb-area">
+                        <div class="row mt-3">
+                            <div class="col-lg-12">
+                                <ul class="breadcrumb-nav d-flex justify-content-start align-items-center">
+                                    <li><a href="index.html">home</a></li>
+                                    <li class="breadcrumb-arrow"><i class="ri-arrow-right-s-line"></i></li>
+                                    <li><a href="products.html">shopping cart</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="row mt-3">
+                            <div class="col-lg-12">
+                                <div class="cart-banner">
+                                    <img src="assets/images/cart-banner.webp" alt="cart-banner">
+                                    <div class="banner-content">
+                                        <h1>Buying a gift?</h1>
+                                        <p>Add a message link in the instructions link below</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Breadcrumb Section End -->
+            <!-- Cart Section Start -->
+            <section class="cart" id="cart">
+                <div class="container">
+                    <!-- Cart Area -->
+                    <div class="row pt-3">
+                        <div class="col-lg-12">
+                            <div class="section-heading">
+                                <h2 class="cart-title">Shopping cart</h2>
+                            </div>
+                        </div>
+                        <div class="col-lg-12">
+                            <div class="cart-area">
+                                <div class="cart-table">
+                                    <div class="cart-header d-flex justify-content-start align-items-center">
+                                        <div class="product">
+                                            <h6>Product</h6>
+                                        </div>
+                                        <div class="price">
+                                            <h6>Price</h6>
+                                        </div>
+                                        <div class="quantity">
+                                            <h6>Quantity</h6>
+                                        </div>
+                                        <div class="total">
+                                            <h6>Total</h6>
+                                        </div>
+                                    </div>
+                                    <div class="cart-body">
+                                        <!-- Single Cart Row -->
+                                        <div class="cart-item-single d-flex justify-content-start align-items-center">
+                                            <div class="product d-flex justify-content-start align-items-start">
+                                                <div class="product-thumb">
+                                                    <img src="assets/images/cart-product-1.webp" alt="product">
+                                                </div>
+                                                <div class="cart-product-text">
+                                                    <a href="shop-inner.html">ricebeet</a>
+                                                    <span>Color: Red</span>
+                                                </div>
+                                            </div>
+                                            <div class="price">
+                                                <span class="strike">$13.50</span>
+                                                <p class="text-danger">$12.83</p>
+                                            </div>
+                                            <div class="quantity">
+                                                <div class="quantity_input">
+                                                    <button type="button" class="input_number_decrement">
+                                                    <i class="fa-solid fa-minus"></i>
+                                                    </button>
+                                                    <input name="quantity" class="input_number" type="text" value="1" />
+                                                    <button type="button" class="input_number_increment">
+                                                    <i class="fa-solid fa-plus"></i>
+                                                    </button>
+                                                </div>
+                                                <p class="remove"><i class="fa-solid fa-xmark"></i> Remove</p>
+                                            </div>
+                                            <div class="total">
+                                                <span class="strike">$67.50</span>
+                                                <p class="text-danger">$64.12</p>
+                                                <p class="flash">Flash Sale - 5% Off</p>
+                                                <span class="discount">-$3.38</span>
+                                            </div>
+                                        </div>
+                                        <!-- Single Cart Row -->
+                                        <div class="cart-item-single d-flex justify-content-start align-items-center">
+                                            <div class="product d-flex justify-content-start align-items-start">
+                                                <div class="product-thumb">
+                                                    <img src="assets/images/cart-product-1.webp" alt="product">
+                                                </div>
+                                                <div class="cart-product-text">
+                                                    <a href="shop-inner.html">ricemere</a>
+                                                    <span>Color: pink</span>
+                                                </div>
+                                            </div>
+                                            <div class="price">
+                                                <span class="strike">$24.55</span>
+                                                <p class="text-danger">$22.73</p>
+                                            </div>
+                                            <div class="quantity">
+                                                <div class="quantity_input">
+                                                    <button type="button" class="input_number_decrement">
+                                                    <i class="fa-solid fa-minus"></i>
+                                                    </button>
+                                                    <input name="quantity" class="input_number" type="text" value="1" />
+                                                    <button type="button" class="input_number_increment">
+                                                    <i class="fa-solid fa-plus"></i>
+                                                    </button>
+                                                </div>
+                                                <p class="remove"><i class="fa-solid fa-xmark"></i> Remove</p>
+                                            </div>
+                                            <div class="total">
+                                                <span class="strike">$67.50</span>
+                                                <p class="text-danger">$64.12</p>
+                                                <p class="flash">Flash Sale - 5% Off</p>
+                                                <span class="discount">-$3.38</span>
+                                            </div>
+                                        </div>
+                                        <!-- Single Cart Row -->
+                                        <div class="cart-item-single d-flex justify-content-start align-items-center">
+                                            <div class="product d-flex justify-content-start align-items-start">
+                                                <div class="product-thumb">
+                                                    <img src="assets/images/cart-product-1.webp" alt="product">
+                                                </div>
+                                                <div class="cart-product-text">
+                                                    <a href="shop-inner.html">ricebeet</a>
+                                                    <span>Color: Red</span>
+                                                </div>
+                                            </div>
+                                            <div class="price">
+                                                <span class="strike">$13.50</span>
+                                                <p class="text-danger">$12.83</p>
+                                            </div>
+                                            <div class="quantity">
+                                                <div class="quantity_input">
+                                                    <button type="button" class="input_number_decrement">
+                                                    <i class="fa-solid fa-minus"></i>
+                                                    </button>
+                                                    <input name="quantity" class="input_number" type="text" value="1" />
+                                                    <button type="button" class="input_number_increment">
+                                                    <i class="fa-solid fa-plus"></i>
+                                                    </button>
+                                                </div>
+                                                <p class="remove"><i class="fa-solid fa-xmark"></i> Remove</p>
+                                            </div>
+                                            <div class="total">
+                                                <span class="strike">$67.50</span>
+                                                <p class="text-danger">$64.12</p>
+                                                <p class="flash">Flash Sale - 5% Off</p>
+                                                <span class="discount">-$3.38</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="cart-subtotal mt-5">
+                                    <div class="cart-subtotal-price d-flex justify-content-between align-items-center">
+                                        <p class="text">Tax included and shipping calculated at checkout</p>
+                                        <p class="price">Subtotal: $477.38</p>
+                                    </div>
+                                    <div class="shipping-cal">
+                                        <p class="shipping-text">Get shipping estimates</p>
+                                        <form class="shipping-form">
+                                            <div class="inputs d-flex justify-content-between align-items-center">
+                                                <div class="country-wrapper">
+                                                    <div class="form-floating">
+                                                        <select class="form-select quantity-select" id="floatingSelect" aria-label="Floating label select example">
+                                                            <option selected>United States</option>
+                                                            <option value="1">Afghanistan</option>
+                                                            <option value="2">Bangladesh</option>
+                                                            <option value="3">Canda</option>
+                                                            <option value="4">Denmark</option>
+                                                            <option value="5">Egypt</option>
+                                                            <option value="6">Finland</option>
+                                                            <option value="7">Gambia</option>
+                                                            <option value="8">Haiti</option>
+                                                            <option value="9">India</option>
+                                                            <option value="10">Japan</option>
+                                                        </select>
+                                                        <label for="floatingSelect">Country</label>
+                                                    </div>
+                                                </div>
+                                                <div class="province-wrapper">
+                                                    <div class="form-floating">
+                                                        <select class="form-select quantity-select" id="floatingSelect" aria-label="Floating label select example">
+                                                            <option selected>Alabama</option>
+                                                            <option value="1">Alabama</option>
+                                                            <option value="2">Alaska</option>
+                                                            <option value="3">Arkansas</option>
+                                                            <option value="4">Colorado</option>
+                                                            <option value="5">Florida</option>
+                                                            <option value="6">Georgia</option>
+                                                            <option value="7">Washington DC</option>
+                                                            <option value="8">Hawaii</option>
+                                                            <option value="9">Guam</option>
+                                                            <option value="10">Idaho</option>
+                                                        </select>
+                                                        <label for="floatingSelect">Province</label>
+                                                    </div>
+                                                </div>
+                                                <div class="post-code-wrapper">
+                                                    <div class="form-floating mb-3">
+                                                        <input type="text" class="form-control" id="floatingInput" placeholder="Zip/Postal Code">
+                                                        <label for="floatingInput">Zip/Postal Code</label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="calculate-shippingobtn">
+                                                <button type="submit">Calculate shipping</button>
+                                            </div>
+                                        </form>
+                                    </div>
+                                    <div class="seller-note">
+                                        <p class="shipping-text seller">Add instructions for seller</p>
+                                        <form class="seller-form">
+                                            <div class="post-code-wrapper">
+                                                <div class="form-floating">
+                                                    <textarea class="form-control" placeholder="Special Instructions for seller" id="floatingTextarea2" style="height: 100px"></textarea>
+                                                    <label for="floatingTextarea2">Special Instructions for seller</label>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                                <div class="cart-footer">
+                                    <a href="checkout.html" class="purple-btn">Checkout</a>
+                                    <div class="g-pay">
+                                        <img src="assets/images/g-pay.png" alt="g-pay-logo">
+                                    </div>
+                                    <a href="products.html" class="continue-btn">Continue shopping</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Related Post -->
+                    <div class="row mt-5 mb-5 recently-view">
+                        <div class="col-lg-12">
+                            <div class="section-heading">
+                                <h2>You might also like</h2>
+                            </div>
+                        </div>
+                        <div class="col-lg-2">
+                            <div class="related-products-media">
+                                <a href="shop-inner.html"><img src="assets/images/liked-product-1.webp" alt="liked-product"></a>
+                            </div>
+                            <div class="liked-product-content">
+                                <a href="shop-inner.html">Noodoll Plane</a>
+                            </div>
+                        </div>
+                        <div class="col-lg-2">
+                            <div class="related-products-media">
+                                <a href="shop-inner.html"><img src="assets/images/liked-product-2.webp" alt="liked-product"></a>
+                            </div>
+                            <div class="liked-product-content">
+                                <a href="shop-inner.html">ricecarrout</a>
+                            </div>
+                        </div>
+                        <div class="col-lg-2">
+                            <div class="related-products-media">
+                                <a href="shop-inner.html"><img src="assets/images/liked-product-3.webp" alt="liked-product"></a>
+                            </div>
+                            <div class="liked-product-content">
+                                <a href="shop-inner.html">Noodoll Plane</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row pb-5">
+                        <div class="col-lg-6">
+                            <div class="promo-product-single">
+                                <div class="promo-product-thumbnail">
+                                    <img src="assets/images/promo-product-1.webp" alt="promo-product">
+                                </div>
+                                <div class="promo-product-text">
+                                    <p>Music mobile</p>
+                                    <h2>$25.00</h2>
+                                    <a href="shop-inner.html" class="purple-btn">Shop now</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="promo-product-single two">
+                                <div class="promo-product-text">
+                                    <p>New Noodoll night lights</p>
+                                    <h2>$13.50</h2>
+                                    <a href="shop-inner.html" class="purple-btn">Shop now</a>
+                                </div>
+                                <div class="promo-product-thumbnail">
+                                    <img src="assets/images/promo-product-2.webp" alt="promo-product">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Cart Section End -->
+            <!-- Footer Section Start -->
+            <footer class="footer" id="footer">
+                <div class="container">
+                    <div class="footer-top">
+                        <div class="row">
+                            <div class="col-lg-6 offset-lg-3">
+                                <p class="text-center">Our fabulous newsletters:</p>
+                                <form class="footer-newsletter-form">
+                                    <label for="email">Email address</label>
+                                    <div class="form-action d-flex justify-content-between align-items-center">
+                                        <input type="email">
+                                        <button type="submit">Sign up</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer-middle">
+                        <div class="row">
+                            <!-- Footer Column -->
+                            <div class="col-lg-3">
+                                <div class="footer-col col1">
+                                    <p class="footer-col-title">Collections</p>
+                                    <ul class="footer-menu">
+                                        <li><a href="shop-inner.html">toys</a></li>
+                                        <li><a href="shop-inner.html">home</a></li>
+                                        <li><a href="shop-inner.html">stationery</a></li>
+                                        <li><a href="shop-inner.html">accessories</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!-- Footer Column -->
+                            <div class="col-lg-3">
+                                <div class="footer-col col2">
+                                    <p class="footer-col-title">store info</p>
+                                    <ul class="footer-menu">
+                                        <li><a href="shop-inner.html">FREE TRIAL</a></li>
+                                        <li><a href="shop-inner.html">our story</a></li>
+                                        <li><a href="shop-inner.html">contact</a></li>
+                                        <li><a href="shop-inner.html">FAQs</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!-- Footer Column -->
+                            <div class="col-lg-3">
+                                <div class="footer-col col3">
+                                    <p class="footer-col-title">legal</p>
+                                    <ul class="footer-menu">
+                                        <li><a href="shop-inner.html">refunds</a></li>
+                                        <li><a href="shop-inner.html">T&Cs</a></li>
+                                        <li><a href="shop-inner.html">privacy policy</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!-- Footer Column -->
+                            <div class="col-lg-3">
+                                <div class="footer-col col4">
+                                    <p class="footer-col-title">follow us</p>
+                                    <ul class="footer-social d-flex justify-content-start align-items-center">
+                                        <li><a href="#"><i class="fa-brands fa-square-facebook"></i></a></li>
+                                        <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                                        <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                                        <li><a href="#"><i class="fa-brands fa-pinterest"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer-bottom">
+                        <div class="row justify-content-between align-items-center">
+                            <div class="col-lg-6">
+                                <p class="copyright-text">Copyright © 2023 Boost Spark. Powered by Shopify</p>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="currency-form-wrapper">
+                                    <ul class="currency-form">
+                                        <li class="has-children">
+                                            united states (USD $)
+                                            <ul class="currency-sub">
+                                                <li>united states (USD $)</li>
+                                                <li>australia (AUD $)</li>
+                                                <li>Canada (CAD $)</li>
+                                                <li>united kingdom (GBP £)</li>
+                                                <li>united states (USD $)</li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="payment-gateways">
+                                    <img src="assets/images/payment-gateways.png" alt="payment-gateways">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+            <!-- Footer Section End -->
+        </div>
+        <!-- Custom Script -->
+        <script src="assets/js/script.js"></script>
+        <!-- jQuery -->
+        <script type="text/javascript" src="assets/js/jquery.min.js"></script>
+        <!-- Bootstrap -->
+        <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+        <!-- jQuery UI -->
+        <script type="text/javascript" src="assets/js/jquery-ui.min.js"></script>
+        <!-- Slick Slider -->
+        <script type="text/javascript" src="assets/js/slick.min.js"></script>
+        <!-- WOW Js -->
+        <script type="text/javascript" src="assets/js/wow.min.js"></script>
+        <!-- Main Script -->
+        <script type="text/javascript" src="assets/js/main.js"></script>
+    </body>
+</html>
